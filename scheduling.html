@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pics by Someone</title>
+    <meta charset="utf-8">
+    <link href="competencyproject.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>Pics by Someone</header>
+        <div id="extra2">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="scheduling.html">Scheduling</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="availibilitypage">
+            <main>
+                <h2>Schedule your photo shoot</h2>
+                <p>Required fields are marked with an asterisk *</p>
+                <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                    <label for="FirstName">*First Name:</label>
+                    <input type="text" id="FirstName" name="FirstName" required="required">
+
+                    <label for="LastName">*Last Name:</label>
+                    <input type="text" id="LastName" name="LastName" required="required">
+
+                    <label for="E-mail">*E-mail:</label>
+                    <input type="email" id="E-mail" name="E-mail" required="required">
+
+                    <label for="Phone">Phone:</label>
+                    <input type="tel" id="Phone" name="Phone" maxlength="12">
+
+                    <label for="ShootType">*Type of photo shoot:</label>
+                    <input type="text" id="ShootType" name="ShootType" required="required">
+
+                    <label for="DayOfShoot">*Day of photo shoot:</label>
+                    <input type="date" id="DayOfShoot" name="DayOfShoot" required="required">
+
+                    <label for="Hours">*Number of hours:</label>
+                    <input type="number" id="Hours" name="Hours" min="1" max="10" required="required">
+
+                    <label for="myComments">Comments:</label>
+                    <textarea id="myComments" name="myComments" rows="2" cols="30"></textarea>
+
+                    <label for="People">Number of poeple if family photo shoot:</label><br>
+                    <input type="number" id="People" name="People" min="2">
+
+                    <input type="submit">
+                </form>
+                <p>Payment will be decided upon before the photo shoot for those that are for sure
+                    and payment will be made at location of shoot after the photos are taken.
+                    Photos will be recieved within two weeks of the shoot. If they are to take longer
+                    then you will be contacted and told how much longer it will take for your photos to be ready.
+                </p>
+            </main>
+            <footer>
+                Copyright &copy; Pics by Someone<br>
+                <a href="mailto:4800639665@davistech.edu">
+                    Email</a> if you have any questions
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

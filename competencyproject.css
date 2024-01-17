@@ -1,0 +1,140 @@
+body {
+    background-image: linear-gradient(to top, #99f75b, #e7f158);
+    background-color: #c1c1cc;
+    color: #1f1126;
+}
+
+header {
+    background-color: #d3dd4b;
+    color: #537dfd;
+    font-size: 220%;
+    line-height: 300%;
+    background-image: url(Nature4.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    text-indent: 1em;
+    width: 1400px;
+}
+
+main {
+    margin-top: 0;
+}
+
+nav {
+    background-color: #b4c536;
+    padding: 1em;
+    width: 100px;
+    height: 35.5em;
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    transition: color 4s ease;
+    color: #537dfd;
+}
+
+footer {
+    font-size: 75%;
+    text-align: center;
+}
+
+#mainpage {
+    margin-left: 150px;
+    margin-right: 1000px;
+}
+
+#pricepage {
+    margin-left: 150px;
+    margin-right: 1000px;
+}
+
+#pricepage {
+    margin-left: 150px;
+    margin-right: 1000px;
+}
+
+#availibilitypage {
+    margin-left: 150px;
+    margin-right: 900px;
+}
+
+#picplace {
+    float: right;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding-right: 120px;
+}
+
+#extra {
+    background-color: #b4c536;
+    width: 132px;
+    float: left;
+    height: 41em;
+}
+
+#extra2 {
+    background-color: #b4c536;
+    width: 132px;
+    float: left;
+    height: 43em;
+}
+
+table {
+    border: 2px solid #104d13;
+    border-collapse: collapse;
+}
+
+td {
+    padding: .5em;
+    border: 2px solid #104d13;
+    text-align: center;
+}
+
+th {
+    padding: .5em;
+    border: 2px solid #104d13;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #416617;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    margin-left: 140px;
+}
+
+#wrapper {
+    width: 95em;
+    margin-left: auto;
+    margin-right: auto;
+}
